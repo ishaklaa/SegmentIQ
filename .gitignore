@@ -1,0 +1,25 @@
+# Environnements virtuels
+.venv/
+.venv312/
+venv/
+env/
+
+# Modèles sauvegardés (trop lourds, à régénérer avec le notebook)
+*.joblib
+
+# Données
+Data/*
+!Data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Éditeur / système
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
